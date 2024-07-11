@@ -1,0 +1,81 @@
+/* #div1{
+  background-color:#f594b1;
+  height:50vh;
+  display:flex;
+  justify-content:center;
+}
+#div1 #circle{
+  background-color:white;
+  border-radius:50%;
+  border:1px solid black;
+  width:150px;
+  height:120px;
+}
+#div1 label{
+  color:white;
+  font-weight:600;;
+  font-family:sans-serif;
+  margin:100px;
+  text-align:center;
+}
+ */
+
+#div1{
+  background-image:linear-gradient(#f78d8d 50%,#fff5f5 50%);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+#circle{
+  border-radius:50%;
+  background-color:pink;
+  height:200px;
+  width:200px;
+  margin:10px;
+}
+label{
+  color:white;
+  font-size:20px;
+  font-weight:800;
+  margin:10px;
+  font-family:sans-serif;
+}
+#totalAmount{
+  background-color:white;
+  color:gray;
+  font-weight:600;
+  border-radius:10px;
+  width:300px;
+  height:100px;
+  padding:10px;
+  font-size:32px;
+  text-align:center;
+  align-items:center;
+  margin:10px;
+}
+span{
+  font-size:10px;
+}
+.text10000{
+  border:1px solid black;
+  padding:10px;
+  border-radius:10px;
+  font-family:'arial';
+  font-size:14px;
+  margin:10px;
+  display:none;
+}
+.btn{
+  background-color:whitesmoke;
+  border: 1px solid whitesmoke;
+  color:hotpink;
+  padding:10px;
+  font-size:20px;
+  margin:10px;
+}
+.btn-container:hover .text10000{
+   display:block;
+}
+
